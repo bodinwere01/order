@@ -1,0 +1,87 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('/order-summary-component-main/images/pattern-background-desktop.svg');
+ position: absolute;
+    width: 100vw;
+    background-repeat: repeat-x;
+    text-align: center ;
+    font-family: 'Red Hat Display', sans-serif;
+    align-items: center;
+   
+}
+.card{
+    width:450px;
+    height: 100%;
+  display: block;
+    margin: 10% auto;
+    border-radius: 10px;
+}
+.card-header{
+    background-image: url('/order-summary-component-main/images/illustration-hero.svg');
+    width: 450px;
+    height: 220px;
+    background-repeat: no-repeat;
+}
+h3,h5{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin: 10% auto 0% auto;
+}
+p{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    margin: 5% 10%;
+}
+.p1{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+.flex-container{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+   margin: auto 8%;
+}
+.flex-item-1{
+    width: 20%;
+    margin: auto;
+}
+.flex-item-2{
+    width: 50%;
+    text-align: start;
+    margin:2% auto;
+}
+.flex-item-3{
+    width: 30%;
+    margin:10% auto;
+}
+a{
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+}
+a:hover{
+    text-decoration: none;
+}
+#btn{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0 20px 10px hsl(225, 100%, 94%);
+    margin: 10% auto 5% auto;
+    width: 85%;
+    padding: 3%;
+}
+#btn:hover{
+    background-color: rgb(135, 64, 250);
+}
+#btn2{
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 5%;
+}
+#btn2:hover{
+    color: black;
+}
